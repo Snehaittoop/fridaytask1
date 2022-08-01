@@ -14,5 +14,11 @@ public class sampleExcep {
         }catch (NumberFormatException e){
             System.out.println("Number format exception");
         }
+        try{
+            int a[]=new int[5];
+            a[7]=9;
+        }catch(ArrayIndexOutOfBoundsException e){
+            System.out.println(" array index out of bounds");
+        }
     }
 }
